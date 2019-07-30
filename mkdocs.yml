@@ -1,0 +1,13 @@
+site_name: Adyah Docs
+nav:
+  - Home: 'index.md'
+  - Download: 'download.md'
+  - Installation: 
+      - 'Baseline ISO' : 'install.md'
+      - 'Virtual Box / VMWare Image' : 'install_other.md'
+  - Next Steps: nextSteps.md
+extra_css: [extra.css]
+theme: readthedocs
+markdown_extensions:
+  - toc :
+      baselevel: 3
